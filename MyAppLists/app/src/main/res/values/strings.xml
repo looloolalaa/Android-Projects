@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyAppLists</string>
+    <string name="permdiscription">앱리스트 접근</string>
+</resources>

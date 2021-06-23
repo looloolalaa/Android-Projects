@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnThread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StartThread"/>
+        <Button
+            android:id="@+id/btnThreadStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StopThread"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StartService"/>
+        <Button
+            android:id="@+id/btnServiceStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StopService"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnIntentService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StartIntentService"/>
+        <Button
+            android:id="@+id/btnIntentServiceStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StopIntentService"/>
+    </LinearLayout>
+
+</LinearLayout>
